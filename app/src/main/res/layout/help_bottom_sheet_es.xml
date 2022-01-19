@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:padding="10dp"
+            android:text="INSTRUCCIONES: "
+            android:textColor="@color/navy_blue"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/seashell" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:padding="10dp"
+            android:text="1. Siempre introduce 2 valores: caudal de aire y fricción o caudal de aire y velocidad o caudal de aire y diámetro o diámetro y velocidad. "
+            android:textColor="#2C2C2C" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:padding="10dp"
+            android:text="2. Usar el botón de CALCULAR para sacar el resto de los valores. "
+            android:textColor="#2C2C2C" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:padding="10dp"
+            android:text="3. Resetear el cálculo con el botón LIMPIAR. "
+            android:textColor="#2C2C2C" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:padding="10dp"
+            android:text="4. Con el diámetro equivalente puedes calcular cualquier tamaño de conducto. Pon el diámetro y cualquier tamaño de conducto en las celdas a o b y calcular. "
+            android:textColor="#2C2C2C" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:padding="10dp"
+            android:text="5. Si quieres calcular automaticamente el tamaño de un conducto, introduce el diámetro equivalente y el valor 1 en el caudal de aire y calcular. "
+            android:textColor="#2C2C2C" />
+
+    </LinearLayout>
+</RelativeLayout>

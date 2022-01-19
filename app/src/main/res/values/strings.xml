@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DuctCalc</string>
+
+
+    <string name="friction_en">Friction loss</string>
+    <string name="friction_es">Pérdida de carga</string>
+
+    <string name="airflow_en">Airflow</string>
+    <string name="airflow_es">Caudal de aire</string>
+
+    <string name="speed_en">Velocity</string>
+    <string name="speed_es">Velocidad</string>
+
+    <string name="diameter_en">Equivalent diameter</string>
+    <string name="diameter_es">Diametro equivalente</string>
+
+    <string name="calculate_en">Calculate</string>
+    <string name="calculate_es">Calcular</string>
+
+    <string name="suppress_en">Reset</string>
+    <string name="suppress_es">LIMPIAR</string>
+    <string name="error_en">Whoops, error. Again!!!</string>
+    <string name="error_es">Ups, error. Otra vez!!!</string>
+
+
+</resources>
